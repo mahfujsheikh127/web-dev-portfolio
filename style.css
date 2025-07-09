@@ -11,7 +11,11 @@
 .text-primary {
     color:#17E86E;
 }
-
+.header {
+    background-image: url('images/developer.png'), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 nav {
     display: flex;
@@ -52,6 +56,26 @@ nav li a {
     border-radius: 5px;
     border: none;
     
+
+
+}
+.banner-content {
+    max-width: 580px;
+}
+.banner-gri {
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.banner-tittle {
+    font-size: 85px;
+    font-family: bold, "Open Sans", sans-serif;;
+    
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
 
 
 }
